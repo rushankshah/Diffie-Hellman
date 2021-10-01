@@ -111,7 +111,6 @@ public class Diffie_Hellman {
 
         // Find prime factors of phi and store in a set
         findPrimefactors(s, phi);
-
         // Check for every number from 2 to phi
         for (int r = 2; r <= phi; r++) {
             // Iterate through all prime factors of phi.
